@@ -1,0 +1,347 @@
+.heading
+{
+    background-color: #E8C5E5;
+    color: #f7f9f2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    height: 60px;
+    padding-top:5px;
+    letter-spacing:1px;
+    border-radius:10px;
+    width:70%;
+}
+.flex
+{
+    display: flex;
+    margin-left:20px;
+    color:#91DDCF;
+    height:30px;
+
+}
+#bo,#bo1,#bo2,#bo3
+{
+    margin-left:20px;
+}
+.row
+{
+    
+    width: 70%;
+    height: 80vh;
+    background-color: rgba(206, 201, 201, 0.904);
+    
+
+}
+.div p
+{
+color:#180616de;
+}
+
+.container
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.c1
+{
+    margin: 2px;
+    height:90px;
+    background-color:white;
+    border-radius:10px;
+}
+.div
+{
+height: 0vh;
+overflow: hidden;
+background-color:rgba(241, 237, 237, 0.932);
+border-radius:10px;
+text-align: center;
+}
+.div1
+{
+height: 0;
+overflow: hidden;
+background-color:rgba(241, 237, 237, 0.932);
+border-radius:10px;
+text-align: center;
+}
+.div2
+{
+height: 0;
+overflow: hidden;
+background-color:rgba(241, 237, 237, 0.932);
+border-radius:10px;
+text-align: center;
+}
+.div3
+{
+height: 0;
+overflow: hidden;
+background-color:rgba(241, 237, 237, 0.932);
+border-radius:10px;
+text-align: center;
+}
+.div.active
+{
+height: 50px;
+}
+.div1.active
+{
+height: 50px;
+}
+.div2.active
+{
+height: 50px;
+}
+.div3.active
+{
+height: 50px;
+}
+@media (max-width:650px)
+{
+    .heading
+    {
+        height:40px;
+        font-size: 30px;
+    }
+    .c1{
+        height: 50px;
+    }
+    .flex
+    {
+        height: 25px;
+    }
+    #bo,#bo1,#bo2,#bo3
+    {
+        font-size: 20px;
+    }
+    
+    .flex   h2
+    {
+        font-size: 20px;
+
+    }
+    .div.active
+{
+height: 30px;
+margin-top:10px;
+}
+.div1.active
+{
+height: 30px;
+margin-top: 15px;
+}
+.div2.active
+{
+height: 30px;
+margin-top: 15px;
+
+}
+.div3.active
+{
+height: 30px;
+margin-top: 15px;
+
+}
+}
+
+@media (max-width:800px)
+{
+    .heading
+    {
+        height:40px;
+        font-size: 30px;
+    }
+    .c1{
+        height: 50px;
+    }
+    .flex
+    {
+        height: 25px;
+    }
+    #bo,#bo1,#bo2,#bo3
+    {
+        font-size: 20px;
+    }
+    
+    .flex   h2
+    {
+        font-size: 20px;
+
+    }
+    .div.active
+{
+height: 30px;
+margin-top:10px;
+}
+.div1.active
+{
+height: 30px;
+margin-top: 15px;
+}
+.div2.active
+{
+height: 30px;
+margin-top: 15px;
+
+}
+.div3.active
+{
+height: 30px;
+margin-top: 15px;
+
+}
+}
+@media (max-width:1000px)
+{
+    .heading
+    {
+        height:40px;
+        font-size: 30px;
+    }
+    .c1{
+        height: 50px;
+    }
+    .flex
+    {
+        height: 25px;
+    }
+    #bo,#bo1,#bo2,#bo3
+    {
+        font-size: 20px;
+    }
+    
+    .flex   h2
+    {
+        font-size: 20px;
+
+    }
+    .div.active
+{
+height: 50px;
+margin-top:10px;
+}
+.div1.active
+{
+height: 50px;
+margin-top: 15px;
+}
+.div2.active
+{
+height: 50px;
+margin-top: 15px;
+
+}
+.div3.active
+{
+height: 50px;
+margin-top: 15px;
+
+}
+}
+@media (max-width:530px)
+{
+    .heading
+    {
+        height:40px;
+        font-size: 30px;
+    }
+    .c1{
+        height: 50px;
+    }
+    .flex
+    {
+        height: 25px;
+    }
+    #bo,#bo1,#bo2,#bo3
+    {
+        font-size: 20px;
+    }
+    
+    .flex   h2
+    {
+        font-size: 20px;
+
+    }
+    .div.active
+{
+height: 30px;
+margin-top:20px;
+}
+.div1.active
+{
+height: 30px;
+margin-top: 20px;
+}
+.div2.active
+{
+height: 30px;
+margin-top: 20px;
+
+}
+.div3.active
+{
+height: 30px;
+margin-top: 20px;
+
+}
+}
+@media (max-width:400px)
+{
+    .heading
+    {
+        height:40px;
+        font-size: 20px;
+    }
+    .c1{
+        height: 50px3;
+    }
+    .flex
+    {
+        height: 25px;
+    }
+    #bo,#bo1,#bo2,#bo3
+    {
+        font-size: 15px;
+        margin-left:3px;
+    }
+    
+    .flex   h2
+    {
+        font-size: 15px;
+        margin-left:0px;
+
+    }
+    .div.active
+{
+height: 50px;
+margin-top:20px;
+font-size: 15px;
+}
+.div1.active
+{
+height: 50px;
+margin-top: 25px;
+font-size: 15px;
+
+}
+.div2.active
+{
+height: 50px;
+margin-top: 25px;
+font-size: 15px;
+
+
+}
+.div3.active
+{
+height: 50px;
+margin-top: 25px;
+font-size: 15px;
+
+
+}
+}
